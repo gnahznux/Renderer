@@ -1,7 +1,8 @@
 # ZRender
 
+
 ## Summary
-CPU模拟渲染器
+简易CPU模拟渲染器
 
 []基础数学库
     
