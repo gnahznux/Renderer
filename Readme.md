@@ -1,5 +1,12 @@
 # ZRender
 
+# start
+https://docs.conan.io/2/tutorial/consuming_packages/build_simple_cmake_project.html
+
+$ conan install . --output-folder=build --build=missing
+$ cd build
+$ cmake ..
+$ cmake --build .
 
 ## Summary
 简易CPU模拟渲染器

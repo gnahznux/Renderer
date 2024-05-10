@@ -12,7 +12,6 @@ int main(int argc, const char** argv)
     while (key != 27) {
         s.Rasterizer();
         s.RasterizerTriangle(&t);
-
         cv::Mat image(700, 700, CV_32FC3, s.frame_buffer().data());
         image.convertTo(image, CV_8UC3, 1.0f);
         cv::imshow("image", image);
